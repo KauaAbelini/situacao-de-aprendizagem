@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsToday</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+
+        <div class="logo">
+            NEWS<span>TODAY</span>
+        </div>
+
+        <nav>
+            <a href="#" data-categoria="geral">Início</a>
+            <a href="#" data-categoria="technology">Tecnologia</a>
+            <a href="#" data-categoria="business">Economia</a>
+            <a href="#" data-categoria="sports">Esportes</a>
+            <a href="#">Contato</a>
+        </nav>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="campo-pesquisa"
+                placeholder="Pesquisar notícias..."
+            >
+            <button id="btn-pesquisar">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+
+    </header>
+
+    <section class="banner">
+        <div class="overlay"></div>
+
+        <div class="banner-content">
+            <span class="tag">DESTAQUE</span>
+             <h1>Tecnologia e inovação moldando o futuro</h1>
+            <p>
+                Entenda como as novas tecnologias estão transformando
+                negócios, cidades e a vida das pessoas.
+            </p>
+            <a href="#" class="btn-leia-mais">
+                LEIA MAIS
+            </a>
+
+        </div>
+
+    </section>
+
+    <section class="principal">
+
+        <div class="noticias">
+
+            <h2>ÚLTIMAS NOTÍCIAS</h2>
+
+            <div class="cards" id="cards-noticias">
+
+                <div class="carregando">
+                    <i class="fa-solid fa-spinner fa-spin"></i>
+                    Carregando notícias...
+                </div>
+            </div>
+        </div>
+
+        <aside class="mais-lidas">
+            <h2>MAIS LIDAS</h2>
+            <ul>
+
+                <li>
+                    Nova tecnologia promete revolucionar o mercado
+                </li>
+                <li>
+                    Pesquisa aponta crescimento do setor digital
+                </li>
+                <li>
+                    Mercado de trabalho exige novas competências
+                </li>
+                <li>
+                    Segurança digital em alta
+                </li>
+            </ul>
+        </aside>
+    </section>
+
+    <footer>
+        NewsToday © 2026
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
